@@ -231,6 +231,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+.tipo1{
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+  color: white;
+
+  
+}
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -345,6 +354,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   background-color: black;
+}
+.cv{
+  border-radius: 5px;
+  font-size: medium;
+  color: white;
+}
+.boton{
+   background: linear-gradient(blue, pink);
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    
+}
+.boton:hover{
+  color: #fff;
 }
 .project h2 {
 	font-size: 45px;

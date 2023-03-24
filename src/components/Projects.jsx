@@ -5,7 +5,9 @@ import { ProjectCard } from "./ProjectCard";
 // import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import calculadora from '../assets/img/calculadora.jpeg';
+import pestañas from '../assets/img/pestañas.jpg'
 import anefty from '../assets/img/anefty.jpeg';
+import reloj from '../assets/img/reloj.jpg'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 
@@ -17,7 +19,7 @@ export const Projects = () => {
         imgUrl: calculadora,
         description: "Calculadora funcional, diseño con tonos morados suaves, funcionalidades basicas suma resta, multiplicacion, division",
         github: "https://github.com/Valentina9911",
-        deploy: "https://poetic-pavlova-2eb891.netlify.app/",
+        deploy: "https://github.com/Valentina9911/Calculadora",
       },
       {
         title: "Web Developer Portfolio",
@@ -26,11 +28,13 @@ export const Projects = () => {
         github: "https://github.com/Valentina9911",
         deploy: "https://poetic-pavlova-2eb891.netlify.app/",
       },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
+     {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: reloj,
+      github: "https://github.com/Valentina9911/reloj",
+      deploy: "https://marvelous-toffee-9cfbc2.netlify.app/",
+    },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -48,6 +52,10 @@ export const Projects = () => {
     // },
   ];
 
+
+
+
+
   return (
     <section className="project" id="project">
       <Container>
@@ -57,7 +65,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>En esta sección podras observar los proyectos que he creado, respectivos despliegues y repositorios.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -69,7 +77,7 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
-                  </Nav>
+                  </Nav> 
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -85,11 +93,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>hola.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>1222.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

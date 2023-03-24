@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import pdf from '../assets/img/Curriculum Valentina Godoy.pdf'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -58,7 +59,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Valentina Godoy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend", "Backend", "Full-stack" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Desarrolladora web Full-stack de Bogotá, Colombia. Implemento actividades realacionados con la parte de Fronted y backend, cada dia aprendiendo más para tener más posibilidades de crecer en la parte web</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() =>  console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button  className="cv">
+                  <span><a  className="tipo1" href={pdf} target="_blank" rel="noopener noreferrer">View my Curriculum</a></span>
+                  </button>
               </div>}
             </TrackVisibility>
           </Col>
