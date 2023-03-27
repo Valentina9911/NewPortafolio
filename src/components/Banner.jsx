@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Valentina Godoy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Frontend", "Backend", "Full-stack" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Desarrolladora web Full-stack de Bogotá, Colombia. En cuanto a mi enfoque me baso en la creación de experiencias de usuario excepcionales, utilizando técnicas de diseño centradas en el usuario y herramientas de análisis para optimizar el rendimiento y la usabilidad de los proyectos a mi.</p>
+                  <p>Desarrolladora web Full-stack de Bogotá, Colombia. En cuanto a mi enfoque me baso en la creación de experiencias de usuario excepcionales, utilizando técnicas de diseño centradas en el usuario y herramientas de análisis para optimizar el rendimiento y la usabilidad de los proyectos a mi cargo.</p>
                   <button onClick={() =>  console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                   <button  className="cv">
                   <span><a  className="tipo1" href={pdf} target="_blank" rel="noopener noreferrer">View my Curriculum</a></span>
