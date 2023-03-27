@@ -360,18 +360,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
 }
 .boton{
-   background: linear-gradient(blue, pink);
+   background: white;
     border: none;
+    color: #000;
+    display: flex;
     color: black;
     padding: 5px 10px;
     text-align: center;
+    align-items: center;
     text-decoration: none;
-    display: inline-block;
+    border-radius: 10px;
     font-size: 10px;
+    margin: 5px;
     
 }
 .boton:hover{
-  color: #fff;
+  color: blue;
 }
 .project h2 {
 	font-size: 45px;
