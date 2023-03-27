@@ -31,8 +31,8 @@ export const Contact = () => {
  }
 
 //email js
- function emailDatSend (){
-     
+ function emailDatSend (e, to, email, message){
+  e.preventDefault()
      emailjs.send('service_x9kh1kb', 'template_e56nqky', { //service id - template id
      to,
      email,

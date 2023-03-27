@@ -237,8 +237,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: white;
   cursor: pointer;
   color: white;
-
-  
+  list-style: none;
 }
 .banner {
   margin-top: 0;
