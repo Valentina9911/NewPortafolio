@@ -1,6 +1,6 @@
 import meter1 from "../assets/img/mongodb.svg";
 import meter2 from "../assets/img/git.svg";
-import meter3 from "../assets/img/html.png";
+import meter3 from "../assets/img/HTML.png";
 import meter4 from "../assets/img/css.png";
 import meter5 from "../assets/img/figma.svg";
 import meter6 from "../assets/img/mern.png";
