@@ -4,7 +4,7 @@ import meter3 from "../assets/img/HTML.png";
 import meter4 from "../assets/img/CSS.png";
 import meter5 from "../assets/img/figma.svg";
 import meter6 from "../assets/img/mern.png";
-import meter7 from "../assets/img/js.png";
+import meter7 from "../assets/img/JS.png";
 import meter8 from "../assets/img/react.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
